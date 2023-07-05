@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid #41f6d7;
+  margin-bottom: 24px;
+}
+
+.nav {
+  width: auto;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__part-one {
+  display: flex;
+}
+
+.btn__nav {
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  border-radius: 50%;
+}
+
+.btn__nav:first-child {
+  align-self: center;
+  margin-left: 0;
+}
+
+.btn__nav-burger {
+  background: url(/img/burger.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+
+.logo {
+  width: 97px;
+  height: 51px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.nav__part-two {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__nav-call {
+  background: url(/img/call.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+
+.btn__nav-chat {
+  background: url(/img/chat.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+
+.btn__nav-profile {
+  background: url(/img/profile.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+.btn__nav-repair {
+  background: url(/img/repair.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+
+.btn__nav-checkstatus {
+  background: url(/img/checkstatus.svg) no-repeat center;
+  background-color: #ff3e79;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .logo:after {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    background-color: #eaeaea;
+    top: 10px;
+    right: -20px;
+  }
+
+  .btn__nav--hidden {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1119px) {
+  .nav {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .logo:after {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    background-color: #eaeaea;
+    top: 10px;
+    left: -20px;
+  }
+
+  .logo {
+    margin-left: 43px;
+  }
+
+  .btn__nav-profile {
+    margin-right: 42px;
+    position: relative;
+  }
+
+  .btn__nav-profile:after {
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 2px;
+    background-color: #eaeaea;
+    top: 5px;
+    right: -30px;
+  }
+}

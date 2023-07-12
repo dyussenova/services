@@ -2,3 +2,7 @@ html {
   font-family: "TT Lakes", sans-serif;
   background-color: #f8f8f8;
 }
+.container {
+  max-width: 1120px;
+  margin: auto;
+}

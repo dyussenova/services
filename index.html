@@ -15,57 +15,89 @@
     <link rel="stylesheet" href="./css/fonts/TTLakes /stylesheet.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <div class="nav__part-one">
-            <div class="btn__nav btn__nav-burger"></div>
+    <div class="page">
+      <header class="page__header">
+        <div class="page__nav page__nav--size">
+          <div class="page__one">
+            <div class="item-page__icon item-page__icon-burger"></div>
             <div class="logo">
-                <img src="./img/logo.svg" alt="Логотип CPS"/></div>
+              <img class="page__logo" src="/img/logo.svg" alt="Логотип CPS" />
             </div>
-        <div class="nav__part-two">
-            <div class="btn__nav btn__nav-call btn__nav--hidden"></div>
-            <div class="btn__nav btn__nav-chat btn__nav--hidden"></div>
-            <div class="btn__nav btn__nav-profile btn__nav--hidden"></div>
-            <div class="btn__nav btn__nav-repair"></div>
-            <div class="btn__nav btn__nav-checkstatus"></div>
+          </div>
+          <div class="page__two">
+            <div
+              class="item-page__icon item-page__icon-call item-page__icon--hidden"
+            ></div>
+            <div
+              class="item-page__icon item-page__icon-chat item-page__icon--hidden"
+            ></div>
+            <div
+              class="item-page__icon item-page__icon-profile item-page__icon--hidden"
+            ></div>
+            <div class="item-page__icon item-page__icon-repair"></div>
+            <div class="item-page__icon item-page__icon-chek"></div>
+          </div>
         </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-        <section class="about">
-            <div class="about__title">
-                <div class="about__title-h1"><h1>Услуги и сервисы</h1></div>
-               <div class="about__info">
-                <p>Оставить заявку</p> <div class="about__btn btn__nav-repair"></div>
-                <p>Статус ремонта</p><div class="about__btn btn__nav-checkstatus"></div>
+      </header>
+      <main>
+        <section class="page__content">
+          <div class="page__title page__title--size">
+            <h1 class="page__title-h1">Услуги и сервисы</h1>
+            <div class="page__info">
+              <p class="page__paragraf">Оставить заявку</p>
+              <div class="item-page__icon item-page__icon-repair"></div>
+              <p class="page__paragraf">Статус ремонта</p>
+              <div class="item-page__icon item-page__icon-chek"></div>
             </div>
-        </div>
-            <div class="menu">
-                <ul class="menu__list">
-                 <li class="menu__item menu__item--active"> <a class="menu__link" href="#">Ремонтируемые бренды</li>
-                 <li class="menu__item"><a class="menu__link" href="#">Ремонтируемые устройства</li>
-                 <li class="menu__item"><a class="menu__link" href="#">Цены на услуги</li>
-                 <li class="menu__item"><a class="menu__link" href="#">Адреса сервисных центров</li>
-                 <li class="menu__item"><a class="menu__link" href="#">Специальные цены</li>
-                 <li class="menu__item"><a class="menu__link" href="#">Отзывы</li>
-                </ul>
+          </div>
+          <div class="page__menu page__menu--size">
+            <ul class="page__list">
+              <li class="page__item page__item--active">
+                <a href="#" class="page__link">Ремонтируемые бренды</a>
+              </li>
+              <li class="page__item">
+                <a href="#" class="page__link">Ремонтируемые устройства</a>
+              </li>
+              <li class="page__item">
+                <a href="#" class="page__link">Цены на услуги</a>
+              </li>
+              <li class="page__item">
+                <a href="#" class="page__link">Адреса сервисных центров</a>
+              </li>
+              <li class="page__item">
+                <a href="#" class="page__link">Специальные цены</a>
+              </li>
+              <li class="page__item">
+                <a href="#" class="page__link">Отзывы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="page__container">
+            <div class="page__side-text">
+              <div class="page__text page__text-p">
+                <p>
+                  Мы являемся авторизованным сервисным центром по ремонту
+                  техники Dell. Только у нас вы можете отремонтировать свой
+                  ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p>
+                  Мы успешно работаем с 1992 года и заслужили репутацию
+                  надежного партнера, что подтверждает большое количество
+                  постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                  рекомендациям и, в свою очередь, советуют нас родным и
+                  близким.
+                </p>
               </div>
-        <div class="content">
-            <div class="content__side-text">
-                <div class="content__text">
-                    <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                    <p> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                </div>
-                <button class="btn__content btn__content-read">Читать далее</button>
+              <button class="page__btn page__btn-read">Читать далее</button>
             </div>
-            <div class="content__side-img">
-                <div class="content__img">
-                    <img  class="content__cps" src="/img/logo2.png" alt="Логотип CPS"/>
-                </div>
+            <div class="page__side-img">
+              <div class="page__img">
+                <img class="page__cps" src="/img/logo2.png" alt="Логотип CPS" />
+              </div>
             </div>
-        </div>
+          </div>
         </section>
-    </main>
+      </main>
+    </div>
   </body>
 </html>

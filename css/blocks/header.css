@@ -32,11 +32,12 @@
 .item-page__icon-chek {
   background: url(/img/checkstatus.svg) no-repeat center;
 }
-
-.item-page__icon {
+.item-page {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.item-page__icon {
   margin-left: 16px;
 }
 
